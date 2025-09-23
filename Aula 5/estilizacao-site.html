@@ -1,0 +1,89 @@
+<!-- File: index.html -->
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exemplo com Tags Básicas</title>
+  <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+  <header>
+    <h1 id="titulo">Atividade prática - Estilização de Página</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <img src="ig.jpg" alt="Foto mc ig" class="imagem-principal">
+
+  <main>
+    <section id="home">
+      <h2>Introdução</h2>
+      <p>Esta página é um treino colocando em prática <strong>o que foi visto nas ultimas aulas</strong> de seletores, formatação, box model, menus e validação do código</p>
+    </section>
+
+    <section id="sobre">
+      <h2>Exemplo de Box Model</h2>
+      <div class="caixa">
+        <p>Esta é uma caixa com margin, border e padding aplicados pelo CSS.</p>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Formulário de Contato</h2>
+      <form action="#" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Tabela de Exemplo</h2>
+      <table>
+        <caption>Planos de Estudo</caption>
+        <thead>
+          <tr>
+            <th>Plano</th>
+            <th>Duração</th>
+            <th>Preço (R$)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Básico</td>
+            <td>1 mês</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Intermediário</td>
+            <td>3 meses</td>
+            <td>120</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Guilherme Machado Ferreira Barreto</p>
+    <p> </p>
+    <a href="https://github.com/GuilhermeMFB?tab=repositories">Meu Git Hub</a>
+  </footer>
+</body>
+</html>
+
+
